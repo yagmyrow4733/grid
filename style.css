@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align: center;
+    
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 50px;
+   margin-bottom: 10px;
+
+   
+}
+.item0{
+    grid-column-start: span 3;
+    background-color: rgb(248, 5, 5);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    gap: 10px;
+    
+}
+
+.item1{
+   
+    background-color: brown;
+}
+.item2{
+    background-color: rebeccapurple;
+}
+.item3{
+    background-color: blue;
+}
+.item4{
+    background-color: yellow;
+}
+.item5{
+    background-color: pink;
+}
+.item6{
+
+    background-color: aqua;
+}
+.item7{
+    background-color: yellowgreen;
+
+}
+.item8{
+    background-color: crimson;
+}
+.item9{
+    background-color: teal;
+}
